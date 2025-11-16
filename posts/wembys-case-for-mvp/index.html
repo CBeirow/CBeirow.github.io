@@ -9,7 +9,7 @@
 <meta name="author" content="Camdyn Beirow">
 <meta name="dcterms.date" content="2025-11-04">
 
-<title>Will Victor Wembanyama be the 2026 NBA MVP? – Camdyn’s Sport Blog</title>
+<title>Victor Wembanyama and his case for 2026 NBA MVP – Camdyn’s Sport Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -149,7 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Will Victor Wembanyama be the 2026 NBA MVP?</h1>
+      <h1 class="title">Victor Wembanyama and his case for 2026 NBA MVP</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">NBA</div>
                 <div class="quarto-category">Wembanyama</div>
@@ -189,7 +189,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>Victor Wembanyama is the closest thing to an alien we have ever seen. The French big man stands at 7’4 and is putting up MVP numbers in his third season with the San Antonio Spurs. compared to the former NBA MVPs, it appears that Wemby could very well be on pace to win the league’s highest honor.</p>
+<p>Victor Wembanyama is the closest thing to an alien we have ever seen. The French big man stands at 7’4 and is putting up MVP numbers in his third season with the San Antonio Spurs. compared to the former NBA MVPs stats, it appears that Wemby could very well be on pace to win the league’s highest honor if he keeps up or even improves on his stats.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -307,7 +307,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Player"</span>,</span>
 <span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Per Game Average"</span>,</span>
 <span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill =</span> <span class="st">"Statistic"</span>) <span class="sc">+</span></span>
-<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Welcome to the MVP club?"</span>,</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Comparing Wemby to previous MVPs in the 3 major stat categories"</span>,</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Points Per Game"</span>,</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Rebounds Per Game"</span>,</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"By: Camdyn Beirow | Data Source: Hoopr"</span>) <span class="sc">+</span></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>), </span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">10</span>)</span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a>    ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -317,7 +327,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Wembanyama’s Point, Assist, and Rebound averages are shown above in comparison to the previous three MVP’s averages when they won the honor.</p>
+<p>Wembanyama’s Point , Assist, and Rebound averages are shown above in comparison to the previous three MVP’s averages when they won the honor. While early into the 2026 season, Wemby’s 26.2 points per game and 12.9 rebounds per game is keeping pace in points per game and rebounds per game with Denver Nuggets center Nikola Jokic’s during his 2024 MVP season. Joel Embiid’s 2023 season only saw him play in 39 games, less than half of the NBA season, potentially boosting his average stats.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -333,8 +343,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> wemby26avg, <span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">28</span>, <span class="at">y =</span> <span class="fl">13.4</span>, <span class="at">label =</span> <span class="st">"Victor Wembanyama"</span>),</span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">3</span></span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"2026 NBA Points and Rebound Averages"</span>,</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"When it comes to points and rebounding, wemby is among little company"</span>,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Among Little Company"</span>,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"When it comes to scoring and rebounding, wemby is joined by elite few in the modern era"</span>,</span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Points Per Game"</span>,</span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Rebounds Per Game"</span>,</span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"By: Camdyn Beirow | Data Source: Hoopr"</span>) <span class="sc">+</span></span>
@@ -353,7 +363,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>sdfghjkl./lkjhgfd</p>
+<p>Looking at the 2026 NBA seasons points per game and rebounds per game, Wemby is exceeding a majority of his peers. Among his peers with a minimum of 15 points per game, wemby sits among the top, sharing the top shelf with Nikola Jokic, who is to his right. In terms of NBA big men, Wembanyama is setting the standard for modern players.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -362,7 +372,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_step</span>(<span class="at">linewidth =</span> <span class="fl">1.2</span>) <span class="sc">+</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Wemby's Stock is Through the Roof"</span>,</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"And not just his value, but his Stock Steal and Block stat combo towers among his former MVP peers"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Wemby's Steals and Blocks, or stocks, stat combo towers among his former MVP peers"</span>,</span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Games"</span>, </span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Cumulative Stocks (Steals + Blocks)"</span>,</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"By: Camdyn Beirow | Data Source: Hoopr"</span>) <span class="sc">+</span></span>
@@ -383,6 +393,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>If defense wins championships, then defense must also matter in the MVP discussion. Wemby’s steals and blocks, also known as “stocks”, towers above the previous MVP winners numbers through their first ten games in the season. During his first ten games, Wemby’s single-game high in stocks was 9 against the Brooklyn Nets, while also scoring 31 points on the offensive side. during his 10 game strech, Wemby has more stocks than the last two big men MVP winners combined in that strech.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -391,16 +402,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> wemby_fg_minutes, <span class="fu">aes</span>(<span class="at">x =</span> ppg, <span class="at">y =</span> fg_pct, <span class="at">size =</span> mpg), </span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">alpha =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> wemby_fg_minutes, <span class="fu">aes</span>(<span class="at">label =</span> <span class="st">"Victor Wembanyama"</span>),</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">hjust =</span> <span class="sc">-</span><span class="fl">0.1</span>, <span class="at">vjust =</span> <span class="fl">0.3</span>, <span class="at">size =</span> <span class="fl">3.5</span>, <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_size_continuous</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">6</span>)) <span class="sc">+</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"2026 NBA Season: Scoring Efficiency vs Volume"</span>,</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Field Goal Percentage vs Points Per Game (Wemby in red)</span><span class="sc">\n</span><span class="st">Point size = Minutes Per Game"</span>,</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Points Per Game"</span>,</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Field Goal Percentage"</span>,</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">size =</span> <span class="st">"Minutes Per Game"</span>,</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="at">caption =</span> <span class="st">"By: Camdyn Beirow | Data Source: Hoopr"</span>) <span class="sc">+</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">hjust =</span> <span class="sc">-</span><span class="fl">0.1</span>, <span class="at">vjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="fl">3.5</span>, <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">data=</span>fg_pct_minutes, <span class="fu">aes</span>(<span class="at">x=</span>ppg, <span class="at">y=</span>fg_pct), <span class="at">method=</span><span class="st">"lm"</span>)<span class="sc">+</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_size_continuous</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">6</span>)) <span class="sc">+</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Efficiency is the name of the game"</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"While not the most lights out shooter, Wemby performs well for his role"</span>,</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Points Per Game"</span>,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Rebounds Per Game"</span>,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"By: Camdyn Beirow | Data Source: Hoopr"</span>) <span class="sc">+</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>), </span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">10</span>)</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -410,6 +426,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>Big men historically are not known to shoot the ball well. Victor Wembanyama is apart of the new wave of NBA big men who are able to shoot the ball at an efficient percentage. While not the highest percentage shooter, Wemby is performing well for his amount of points scored per game, shooting above the 50% mark at 50.2% for the 2025-2026 season. While not shooting the lights out, Wemby is performing how you would expect an NBA player with 26.2 ppg, as you can see with the average field goal percentage line based on points per game. When you add in that fact that he is a 7’4 big man who mainly thrives in the paint, his field goal percentage is impresive.</p>
+<p>Victor Wembanyama is on the track to grab MVP honors for the first time in his career if he can keep this pace up throughout the 20205-2026 NBA season. Only time will tell if and when we will see “The Alien” earn what is potentially his.</p>
 
 
 
